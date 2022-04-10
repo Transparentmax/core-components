@@ -35,7 +35,7 @@ export default ['index', 'main-room'].map((name, index) => ({
         nodeResolve(),
         replace({
             preventAssignment: true,
-            'https://resources.realitymedia.digital/vue-apps/': componentPath //JSON.stringify( componentPath )
+            'https://transparentmax.github.io/vue-apps/': componentPath //JSON.stringify( componentPath )
         }), 
         typescript({
             typescript: require('typescript'),
