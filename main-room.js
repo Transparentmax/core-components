@@ -1,4 +1,4 @@
-import { vueComponents } from 'https://transparentmax.github.io/vue-apps/dist/hubs.js';
+import { vueComponents } from 'https://resources.realitymedia.digital/vue-apps/dist/hubs.js';
 
 /**
  * Modified from https://github.com/mozilla/hubs/blob/master/src/components/fader.js
@@ -4049,7 +4049,7 @@ loader.load(spinnerImage, (color) => {
 // if (window.__testingVueApps) {
 //     scriptPromise = import(window.__testingVueApps)    
 // } else {
-//     scriptPromise = import("https://transparentmax.github.io/vue-apps/dist/hubs.js") 
+//     scriptPromise = import("https://resources.realitymedia.digital/vue-apps/dist/hubs.js") 
 // }
 // // scriptPromise = scriptPromise.then(module => {
 // //     return module
